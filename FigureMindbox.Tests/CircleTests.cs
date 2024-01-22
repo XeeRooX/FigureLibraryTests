@@ -1,8 +1,8 @@
-namespace FigureMindbox.Tests
+п»їnamespace FigureMindbox.Tests
 {
     public class CircleTests
     {
-        // Проверка корректного вычисления площади круга
+        // РџСЂРѕРІРµСЂРєР° РєРѕСЂСЂРµРєС‚РЅРѕРіРѕ РІС‹С‡РёСЃР»РµРЅРёСЏ РїР»РѕС‰Р°РґРё РєСЂСѓРіР°
         [Fact]
         public void Circle_AreaCorrectly()
         {
@@ -15,7 +15,7 @@ namespace FigureMindbox.Tests
             Assert.Equal(s, actual, 0.001d);
         }
 
-        // Проверка вввода некорректных данных
+        // РџСЂРѕРІРµСЂРєР° РІРІРІРѕРґР° РЅРµРєРѕСЂСЂРµРєС‚РЅС‹С… РґР°РЅРЅС‹С…
         [Theory]
         [InlineData(-1d)]
         [InlineData(-123d)]
@@ -28,7 +28,7 @@ namespace FigureMindbox.Tests
             });
         }
 
-        // Установка корректного значения радиуса через свойство
+        // РЈСЃС‚Р°РЅРѕРІРєР° РєРѕСЂСЂРµРєС‚РЅРѕРіРѕ Р·РЅР°С‡РµРЅРёСЏ СЂР°РґРёСѓСЃР° С‡РµСЂРµР· СЃРІРѕР№СЃС‚РІРѕ
         [Fact]
         public void Circle_RadiusPropSet()
         {
@@ -37,7 +37,7 @@ namespace FigureMindbox.Tests
             c.Radius = r;
         }
 
-        // Установка НЕкорректного значения радиуса через свойство
+        // РЈСЃС‚Р°РЅРѕРІРєР° РќР•РєРѕСЂСЂРµРєС‚РЅРѕРіРѕ Р·РЅР°С‡РµРЅРёСЏ СЂР°РґРёСѓСЃР° С‡РµСЂРµР· СЃРІРѕР№СЃС‚РІРѕ
         [Theory]
         [InlineData(-1d)]
         [InlineData(-123d)]

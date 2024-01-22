@@ -14,7 +14,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{22712E15-3857-4FFB-9772-473355FFBE1E}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
-		exercise2.sql = exercise2.sql
 	EndProjectSection
 EndProject
 Global
